@@ -4,7 +4,7 @@
 CREATE TABLE Student {
     NYU_Email VARCHAR(15),
     First_Name VARCHAR(15) NOT NULL,
-    Second_Name VARCHAR(15),
+    Last_Name VARCHAR(15),
     Hashed_Password VARCHAR(255) NOT NULL,
     Account_Role VARCHAR(15) NOT NULL,
     PRIMARY KEY (NYU_Email)
