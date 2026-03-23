@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Info</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page page-light">
+    <section class="card-wide">
+      <div class="dashboard-grid">
+        <aside class="sidebar">
+          <h3>Dashboard</h3>
+          <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="groups.html">See Groups</a>
+            <a href="students.html">See Students</a>
+            <a href="student-profile.html">Profile</a>
+          </nav>
+        </aside>
+
+        <section>
+          <div class="split">
+            <article class="info-box">
+              <h1 class="page-title" style="font-size: 1.9rem; margin-bottom:16px;">Student Info</h1>
+              <p><strong>Name:</strong> John Doe</p>
+              <p><strong>Year:</strong> Junior</p>
+              <p><strong>Time Availability:</strong> Monday, 2 PM - 5 PM</p>
+              <p><strong>Course:</strong> CS-UY 1114, MA-UY 214</p>
+              <p><strong>NYU Email:</strong> abc1234@nyu.edu</p>
+              <div class="rating">Rating: 8.6</div>
+              <label for="rating">Rate this student 1-10:</label>
+              <input id="rating" type="number" min="1" max="10" />
+            </article>
+
+            <article class="info-box">
+              <h4>Leave a comment</h4>
+              <textarea placeholder="Great study partner, very organized..."></textarea>
+              <div class="actions">
+                <button class="btn btn-primary">Submit</button>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

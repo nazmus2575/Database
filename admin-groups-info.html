@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Group Info</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page page-purple">
+    <section class="card-wide">
+      <div class="dashboard-grid">
+        <aside class="sidebar">
+          <h3>Admin Dashboard</h3>
+          <nav>
+            <a href="admin-dashboard.html">Home</a>
+            <a href="admin-groups.html">Groups</a>
+            <a href="admin-students.html">Students</a>
+          </nav>
+        </aside>
+
+        <section>
+          <h1 class="page-title">Group #ID</h1>
+          <form>
+            <div class="form-grid">
+              <div class="form-group"><label>Start Time</label><input type="text" value="2 PM" /></div>
+              <div class="form-group"><label>End Time</label><input type="text" value="5 PM" /></div>
+              <div class="form-group"><label>Number of Students</label><input type="number" value="5" /></div>
+              <div class="form-group"><label>Course</label><input type="text" value="CS-UY 1114" /></div>
+              <div class="form-group"><label>Location</label><input type="text" value="4th Floor, Dibner" /></div>
+              <div class="form-group"><label>Group Notes</label><input type="text" value="Room 345, bring notes" /></div>
+            </div>
+
+            <div class="student-list">
+              <div class="student-chip">John Doe</div>
+              <div class="student-chip">Jane Doe</div>
+              <div class="student-chip">Alex Kim</div>
+              <div class="student-chip">Sara Lee</div>
+              <div class="student-chip">Tom Ray</div>
+            </div>
+
+            <div class="actions">
+              <button class="btn btn-primary">Update Info</button>
+              <button class="btn btn-danger">Delete Group</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

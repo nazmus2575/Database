@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Profile</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page page-purple">
+    <section class="card-wide">
+      <div class="dashboard-grid">
+        <aside class="sidebar">
+          <h3>Dashboard</h3>
+          <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="groups.html">See Groups</a>
+            <a href="students.html">See Students</a>
+            <a href="student-profile.html">Profile</a>
+          </nav>
+        </aside>
+
+        <section>
+          <h1 class="page-title">Student Profile</h1>
+          <form>
+            <div class="form-grid">
+              <div class="form-group"><label>Name</label><input type="text" value="John Doe" /></div>
+              <div class="form-group"><label>Course</label><input type="text" value="CS-UY 1114, PHY-UA 214" /></div>
+              <div class="form-group"><label>Year</label><select><option>Junior</option></select></div>
+              <div class="form-group"><label>Most Open Availability</label><input type="text" value="Monday, 2 PM - 5 PM" /></div>
+              <div class="form-group"><label>Start Time</label><input type="text" value="2 PM" /></div>
+              <div class="form-group"><label>End Time</label><input type="text" value="5 PM" /></div>
+            </div>
+            <div class="actions">
+              <button class="btn btn-primary">Update Info</button>
+              <button class="btn btn-danger">Delete Student Account</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
